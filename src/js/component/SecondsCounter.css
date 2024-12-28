@@ -1,0 +1,44 @@
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icono-reloj {
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.digito {
+    width: 2.5rem;
+    height: 3rem;
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(60,55,55,0.584);
+    color: white;
+    border-radius: 5px;
+}
+.tiempoElegido {
+    color: rgb(244, 244, 246);
+    background-color: rgb(12, 105, 235);
+    border-radius: 10%;
+    border: 0.5px rgba(28, 2, 2, 0.792);
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.tiempoAlerta {
+    color: rgb(9, 9, 102);
+    border-radius: 3%;
+    border: 0px rgb(237, 233, 233) solid;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}

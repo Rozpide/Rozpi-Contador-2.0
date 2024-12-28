@@ -29,8 +29,9 @@ const SecondsCounter= ({segundos})=>{
         </div>
     );
 };
+// validamos que la prop es un numero
 SecondsCounter.propTypes = {
     segundos: PropTypes.number
 };
-
+// exportamos el componente funcional SecondsCounter
 export default SecondsCounter;
